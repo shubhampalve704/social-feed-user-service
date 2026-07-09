@@ -1,4 +1,4 @@
-package com.social.userservice.dto.auth;
+package com.social.userservice.auth.dto;
 
 import lombok.Builder;
 import lombok.Data;

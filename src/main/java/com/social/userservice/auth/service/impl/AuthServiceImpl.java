@@ -1,11 +1,11 @@
-package com.social.userservice.service.impl;
+package com.social.userservice.auth.service.impl;
 
-import com.social.userservice.dto.auth.RegisterRequest;
-import com.social.userservice.dto.auth.RegisterResponse;
-import com.social.userservice.entity.User;
-import com.social.userservice.exception.UserAlreadyExistsException;
-import com.social.userservice.repository.UserRepository;
-import com.social.userservice.service.AuthService;
+import com.social.userservice.auth.dto.RegisterRequest;
+import com.social.userservice.auth.dto.RegisterResponse;
+import com.social.userservice.user.entity.User;
+import com.social.userservice.common.exception.UserAlreadyExistsException;
+import com.social.userservice.user.repository.UserRepository;
+import com.social.userservice.auth.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,9 +1,9 @@
-package com.social.userservice.controller;
+package com.social.userservice.auth.controller;
 
 
-import com.social.userservice.dto.auth.RegisterRequest;
-import com.social.userservice.dto.auth.RegisterResponse;
-import com.social.userservice.service.AuthService;
+import com.social.userservice.auth.dto.RegisterRequest;
+import com.social.userservice.auth.dto.RegisterResponse;
+import com.social.userservice.auth.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -20,4 +20,6 @@ public class AuthController {
     public RegisterResponse register(@Valid @RequestBody RegisterRequest request) {
         return authService.register(request);
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.social.userservice.dto.auth;
+package com.social.userservice.auth.dto;
 
 
 import jakarta.validation.constraints.Email;

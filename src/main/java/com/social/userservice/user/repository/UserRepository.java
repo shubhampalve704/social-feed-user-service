@@ -1,6 +1,6 @@
-package com.social.userservice.repository;
+package com.social.userservice.user.repository;
 
-import com.social.userservice.entity.User;
+import com.social.userservice.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

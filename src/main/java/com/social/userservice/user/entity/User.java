@@ -1,9 +1,8 @@
-package com.social.userservice.entity;
+package com.social.userservice.user.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 

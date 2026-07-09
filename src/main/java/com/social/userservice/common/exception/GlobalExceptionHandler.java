@@ -1,4 +1,4 @@
-package com.social.userservice.exception;
+package com.social.userservice.common.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
